@@ -1,0 +1,39 @@
+/*Comienza el grid*/
+section{
+    display:grid;
+    grid-template-columns:repeat(12, 1fr); 
+    grid-auto-rows: auto;
+    gap: 20px}
+.columna{
+    grid-column: span 3;
+}
+nav{ background-color: rgb(223, 53, 53);
+    height: 60px;
+}
+header{
+    background-color: yellow;
+    height: 100px;
+    display: flex;
+    align-items: 
+}
+
+aside{ 
+    background-color: rgb(172, 15, 172);
+    height: 400px;}
+main{
+    grid-column:span 9; 
+    background-color: rgb(79, 66, 252);
+}
+
+footer{ grid-column:span 12; 
+    background-color: rgb(24, 196, 101);
+height:40px;}
+
+article{
+    align-items:center;
+    grid-column:span 12;
+    background-color: rgb(85, 85, 85); 
+    margin:40px;
+    height:130px;
+}
+
